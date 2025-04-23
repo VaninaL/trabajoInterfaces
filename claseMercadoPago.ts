@@ -1,11 +1,11 @@
 import { IPago } from "./interfaz";
 
 class mercadoPago implements IPago{
-    cbu:number;
-    apellidoYNombre:string;
-    saldo:number;
-    comprobante:string;
-    importePago:number;  
+    private cbu:number;
+    private apellidoYNombre:string;
+    private saldo:number;
+    private comprobante:string;
+    private importePago:number;  
     
     constructor(pCbu:number,pAppellidoYNombre:string,pComprobante:string,pImportePago:number){
         this.cbu = pCbu;

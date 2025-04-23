@@ -1,11 +1,11 @@
 import { IPago } from "./interfaz";
 
 class transferencia implements IPago{
-    importe:number;
-    cbu:number;
-    comprobante:string;
-    apellidoYNombreDestinatario:string;
-    limiteTransferencia:number;
+    private importe:number;
+    private cbu:number;
+    private comprobante:string;
+    private apellidoYNombreDestinatario:string;
+    private limiteTransferencia:number;
 
 
     constructor(pImporte:number,pCbu:number,pComprobante:string,pApellidoYNombre:string){
